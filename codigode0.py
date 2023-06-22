@@ -45,8 +45,9 @@ class BaseDatos:
         # SELECT * FROM (SELECT 'Rupert', 'Somewhere', '022') AS tmp
         # WHERE NOT EXISTS (
         #     SELECT name FROM table_listnames WHERE name = 'Rupert'
-        # ) LIMIT 1;
+        # ) LIMIT 1; 
 
         self.conexion.commit()
 
 base_datos = BaseDatos()
+#prueba
